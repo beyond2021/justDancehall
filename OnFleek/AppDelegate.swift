@@ -9,6 +9,7 @@
 //
 
 import UIKit
+import Firebase
     
     
 
@@ -48,6 +49,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().shadowImage = UIImage()
 //        UINavigationBar.appearance().setBackgroundImage(UIImage().forBarMetrics: .Default)
         UINavigationBar.appearance().setBackgroundImage(UIImage(),for: .default)
+        // Add FireBase
+        FIRApp.configure()
         return true
     }
 
