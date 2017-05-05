@@ -13,9 +13,18 @@ class VideoPlayerView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .black
+        //"http://techslides.com/demos/sample-videos/small.mp4"
         // Add the player
-       // let urlString = ""
-       // let player = AVPlayer(url: <#T##URL#>)
+        let urlString = "http://techslides.com/demos/sample-videos/small.mp4"
+        if let url = NSURL(string: urlString){
+            let player = AVPlayer(url: url as URL)
+            // make the video render - show
+            let playerLayer = AVPlayerLayer(player: player)
+            self.layer.addSublayer(playerLayer)
+            playerLayer.frame = self.frame
+            player.play()
+        }
+        
     }//
     
     required init?(coder aDecoder: NSCoder) {

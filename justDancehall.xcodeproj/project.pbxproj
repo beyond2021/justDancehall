@@ -27,6 +27,7 @@
 		538DAFF51EBB1B2B00EE3BAC /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538DAFF41EBB1B2B00EE3BAC /* BaseCell.swift */; };
 		538DAFF81EBB20A000EE3BAC /* VideoLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538DAFF71EBB20A000EE3BAC /* VideoLauncher.swift */; };
 		538DAFFA1EBBAF0C00EE3BAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 538DAFF91EBBAF0C00EE3BAC /* GoogleService-Info.plist */; };
+		538DAFFC1EBC4D1A00EE3BAC /* IMG_3172.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 538DAFFB1EBC4D1A00EE3BAC /* IMG_3172.MP4 */; };
 		6FAEB47ED55882A4DD927E23 /* Pods_justDancehall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782E2A3D8BA0497C15FECA56 /* Pods_justDancehall.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		538DAFF41EBB1B2B00EE3BAC /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		538DAFF71EBB20A000EE3BAC /* VideoLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLauncher.swift; sourceTree = "<group>"; };
 		538DAFF91EBBAF0C00EE3BAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		538DAFFB1EBC4D1A00EE3BAC /* IMG_3172.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_3172.MP4; sourceTree = "<group>"; };
 		782E2A3D8BA0497C15FECA56 /* Pods_justDancehall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_justDancehall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBA29079515955B6533B580 /* Pods-justDancehall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-justDancehall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-justDancehall/Pods-justDancehall.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +121,7 @@
 		5315FDF01EB082B0004E36C9 = {
 			isa = PBXGroup;
 			children = (
+				538DAFFB1EBC4D1A00EE3BAC /* IMG_3172.MP4 */,
 				538DAFF91EBBAF0C00EE3BAC /* GoogleService-Info.plist */,
 				5315FDFB1EB082B0004E36C9 /* OnFleek */,
 				5315FDFA1EB082B0004E36C9 /* Products */,
@@ -255,6 +258,7 @@
 				5315FE071EB082B0004E36C9 /* LaunchScreen.storyboard in Resources */,
 				5315FE041EB082B0004E36C9 /* Assets.xcassets in Resources */,
 				538DAFFA1EBBAF0C00EE3BAC /* GoogleService-Info.plist in Resources */,
+				538DAFFC1EBC4D1A00EE3BAC /* IMG_3172.MP4 in Resources */,
 				5315FE021EB082B0004E36C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
